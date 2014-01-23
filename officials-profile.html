@@ -1,0 +1,315 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GOV Assurances | Officials profile</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/respond.min.js"></script>
+<script type="text/javascript" src="scripts/zepto.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript">
+      $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+          type: 'inline',
+          fixedContentPos: false,
+          fixedBgPos: true,
+          overflowY: 'auto',
+          closeBtnInside: true,
+          preloader: false,         
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'my-mfp-zoom-in'
+        });
+      });
+</script>
+</head>
+    <body>
+    	<div id="pageWrapper">
+        	<div id="headerWrap">
+                <div class="gridContainer clearfix">
+                    <div id="Container">
+                    	<h1 class="logo"><a href="index.html">GOV Assurances</a></h1>
+                        <nav id="mainMenu">
+                        	<ul id="mainNav">
+                            	<li class="menu selected"><a href="person.html">Persons</a></li>
+                            	<li class="menu"><a href="assurances.html">Assurances</a></li>
+                            	<li class="menu"><a href="citizen-report.html">Citizen Report</a></li>
+                        	</ul>
+                            <ul id="accountNav" class="clearfix">
+                                <li class="menu"><a class="popup-with-zoom-anim register" href="#register-dialog"><span>Register</span></a></li>
+                                <li class="menu"><a class="popup-with-zoom-anim" href="#signin-dialog">Sign in</a></li>
+                                <li class="menu favorites"><a href="#">Favorites</a></li>
+                            </ul>
+                        </nav>
+                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                          <div id="register-dialog" class="zoom-anim-dialog mfp-hide">
+                            <h1>Join the reporting and monitoring community</h1>
+                            <section class="social_log">
+                            	<div class="regwithsoc">
+                                	<a href="#">Register with Facebook</a>
+                                </div>
+                                <div class="regwithsoc">
+                                	<a href="#">Register with Twitter</a>
+                                </div>
+                            </section>
+                            <form id="register14">
+                            	<div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" placeholder="e.g. Kofi Mensah" class="form-control">
+                              	</div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Enter your email address" class="form-control">
+                              	</div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" placeholder="password" class="form-control">
+                              	</div>
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="number" placeholder="Enter your number here" class="form-control">
+                              	</div>
+                                <div class="form-group">
+                                    <label>Profile Picture</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Upload a picture to use on your profile. We recommend a size of 200px by 200px.</p>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="InputTerms">I've read and I agree to your terms and conditions</label>
+                                  	<input type="checkbox" id="InputTerms">
+                                </div>
+                            	<button class="btn btn-success" type="submit">Register</button>
+                            </form>
+                          </div>
+                          <div id="signin-dialog" class="zoom-anim-dialog mfp-hide">
+                            <h1>Welcome back</h1>
+                            <section class="social_log">
+                            	<div class="regwithsoc">
+                                	<a href="#">Login with Facebook</a>
+                                </div>
+                                <div class="regwithsoc">
+                                	<a href="#">Login with Twitter</a>
+                                </div>
+                            </section>
+                            <form id="register14">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Enter your email address" class="form-control">
+                              	</div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" placeholder="password" class="form-control">
+                              	</div>
+                                <div class="checkbox">
+                                    <label for="InputTerms">Remember me</label>
+                                  	<input type="checkbox" id="InputTerms">
+                                </div>
+                            	<button class="btn btn-success" type="submit">Log in</button>
+                            </form>
+                          </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div id="global">
+            	<div class="gridContainer clearfix">
+                    <div id="Container">
+                        <div class="appDownloadoff">
+                        	<h5>Get the app</h5>
+                            <a class="downloadAPP" href="#">Download</a>
+                        </div>
+                	</div>
+                </div>
+                <!--<div class="gridContainer clearfix">
+                    <div id="Container">
+                    	<div class="searchp">
+                        	<form id="searchBarForm" class="" method="GET">
+                            	<label class="searchpanel-label" for="keywords">Search</label>
+                                <input type="text" aria-label="search keywords" title="keywords e.g. Web design" placeholder="keywords e.g. Web design" maxlength="255" id="keywords" class="searchpanel-input" name="keywords" autocomplete="off">
+                                <input type="text" aria-label="search keywords" title="city, town or region" placeholder="city, town or region" maxlength="255" id="keywords" class="searchpanel-input" name="keywords" autocomplete="off">
+                                <button id="homepageSearchButton" class="searchpanel-btn" type="submit">
+                        <span class="ico ico-search">&nbsp;</span><span class="searchpanel-btn-label">Search</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="gridContainer clearfix">
+                    <div id="Container">
+                		<div class="pageContent clearfix">
+                            <div class="mainCol">
+                                <div class="officials-profile">
+                                	<header class="profile-stats">
+                                    	<div class="officialsArea">
+                                        	<a class="areaImage" href="#">
+                                            	<img class="coverPhoto" src="images/area/111.jpg"/>
+                                            </a>
+                                        </div>
+                                        <div class="officialsDetails clearfix">
+                                            <a class="profile-picture" href="#">
+                                                <img class="img-responsive" alt="Profile picture" src="images/PGperson.jpg">
+                                            </a>
+                                            <ul class="profile-headline">
+                                            	<li>
+                                                    <div class="profile-name">
+                                                        <strong>Prince Glover</strong>
+                                                        <span>Minister for Health</span>
+                                                    </div>
+                    							</li>
+                                                <li>
+                                                    <div class="profile-stat">
+                                                        <h3>23</h3>
+                                                        <span><a href="#">followers</a></span>
+                                                    </div>
+                                                </li>
+                                                <li>    
+                                                    <div class="profile-stat">
+                                						<div data-rateit-value="5" class="rateit">
+                                                            <div style="height:16px;width:80px;" class="rateit-selected rateit-preset"></div>
+                                                        </div>
+                                						<small>Citizens Rating</small>
+                                        			</div>
+                                                </li>
+                                            </ul>
+                                            <div class="profile-buttons">
+                                                <a href="#">Like</a>
+                                                <a href="#">Follow</a>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <section class="profileInfo">
+                                    	<ul class="user-details col-sm-6">
+                                            <h3 class="profile-title">Bio of Official</h3>
+                                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                    	</ul>
+                                    </section>
+                                    <section class="profileReport">
+                                    	<div class="score-card">
+                                            <ul>
+                                                <li><a href="official-assurances.html">Fulfilled:</a>
+                                                <div class="progress progress-striped float-right">
+                                                <div data-original-title="Fulfilled 37% of Assurances" data-placement="top" data-toggle="tooltip" style="width: 37%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="37" role="progressbar" class="progress-bar">37%</div>
+                                                	</div><!--/progress-->
+                                                </li>
+                                            	<li><a href="official-assurances.html">On-Going:</a>
+                                            	<div class="progress progress-striped active float-right">
+                                            		<div data-original-title="7 Assurances are currently being worked on" data-placement="top" data-toggle="tooltip" style="width: 45%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="45" role="progressbar" class="progress-bar progress-bar-info">45%</div>
+                                            		</div><!--/progress-->
+                                            	</li>
+                                                <li><a href="official-assurances.html">Failed:</a>
+                                                	<div class="progress progress-striped float-right">
+                                                	<div data-original-title="Failed assurances: 7%" data-placement="top" data-toggle="tooltip" style="width: 7%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="9" role="progressbar" class="progress-bar progress-bar-warning">7%</div>
+                                                	</div><!--/progress-->
+                                                </li>
+                                                <li><a href="official-assurances.html">Stalled:</a>
+                                            		<div class="progress progress-striped float-right">
+                                            	<div data-original-title="Stalled assurances: 7%" data-placement="top" data-toggle="tooltip" style="width: 4%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="4" role="progressbar" class="progress-bar progress-bar-danger">4%</div>
+                                            		</div><!--/progress-->
+                                            	</li>
+                                            	<li><a href="official-assurances.html">Pending:</a>
+                                            		<div class="progress progress-striped active float-right">
+                                            		<div data-original-title="Pending assurances: 7%" data-placement="top" data-toggle="tooltip" style="width: 7%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="7" role="progressbar" class="progress-bar progress-bar-pending">7%</div>
+                                            		</div><!--/progress-->
+                                            	</li>
+                                            </ul>
+                                    	</div>
+                                    </section>
+                                    <ul class="officials-news">
+                                    	<h3 class="profile-title">Assurances Given</h3>
+                                        <li><a href="assurances-view.html">Promised that he will never support a spill motion against ministers</a></li>
+                                        <li><a href="#">Build a 20 kilometer road for my constituency</a></li>
+                                        <li><a href="#">Build a 20 kilometer road for my constituency</a></li>
+                                        <li><a href="#">Build a 20 kilometer road for my constituency</a></li>
+                                        <li><a href="#">Build a 20 kilometer road for my constituency</a></li>
+                                        <li><a href="#">Build a 20 kilometer road for my constituency</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sideCol3">
+                                <h3 style="margin-top:20px;"><a href="#">Latest Promises</a></h3>
+                                <div class="row promise">
+                                	<img src="images/photo.jpg">
+                                    <a href="#"><strong>Odekro</strong> promised to support the Ghanaian car industry by pushing the government to give a rebate of $5,000 to Ghanaians at p...</a>
+                                </div>
+                                <div class="row promise">
+                                	<img src="images/photo.jpg">
+                                    <a href="#"><strong>Odekro</strong> promised to support the Ghanaian car industry by pushing the government to give a rebate of $5,000 to Ghanaians at p...</a>
+                                </div>
+                                <div class="row promise">
+                                	<img src="images/photo.jpg">
+                                    <a href="#"><strong>Odekro</strong> promised to support the Ghanaian car industry by pushing the government to give a rebate of $5,000 to Ghanaians at p...</a>
+                                </div>
+                        	</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerWrap">
+            	<div class="gridContainer clearfix">
+                    <div id="Container">
+                    	<div id="footTop">
+                        	<div class="section">
+                            	<h3>Home</h3>
+                                <ul>
+									<li><a href="#">Mobile site</a></li>
+                                    <li><a href="#">Popular reports</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Contact a Promising</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+                            <div class="section">
+                            	<h3>Promises</h3>
+                                <ul>
+                                	<li><a href="#">Education</a></li>
+                                    <li><a href="#">Health care</a></li>
+                                </ul>
+                                <a class="govpost" href="#"><span>Record a promise</span></a>
+                            </div>
+                            <div class="section">
+                            	<h3>Citizen Report</h3>
+                                <ul>
+                                	<li><a href="#">Highest rated</a></li>
+                                    <li><a href="#">Not rated</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Health Care</a></li>
+                                    <li><a href="#">Report</a></li>
+                                </ul>
+                                <a class="govpost" href="#"><span>Post a report</span></a>
+                            </div>
+                            <div class="section">
+                            	<div class="footer-social clearfix">
+                                    <h3>Connect with us</h3>
+                                    <a target="_blank" href="#" class="social-item twitter"></a>
+                                    <a target="_blank" href="#" class="social-item facebook"></a>
+                                </div>
+                            	<h3>More from us</h3>
+                                <ul class="last_list">
+                                	<li><a href="#">About us</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="footBottom">
+                        	<div class="privacy">
+                                <ul class="clearfix">
+                                    <li><a class="security" href="#">Security</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li class="last_item"><a href="#">Cookies</a></li>
+                                </ul>
+                                <p class="copyright">Copyright &copy; gov assurance 2014</p>
+                            </div>
+                        </div>
+                   	</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
