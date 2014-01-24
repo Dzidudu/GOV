@@ -43,14 +43,14 @@ ul#accountNav{float:right;}
 #SloganContainer{float:left;width:49%;color:#fff;font-size:2.6em;padding:40px 0;}
 .appDownload{float:right;padding:10px 0 0;}
 #appDiv{float:right;text-align:center;width:50%;height:15em;overflow:hidden;}
-.appDownloadoff{float:right;padding:0 0 8px;width:20%;}
+.appDownloadoff{float:right;padding:0 0 8px;width:23%;}
 .appDownload img{float:right;height:188px;}
 .appDownload a.downloadAPP{position:relative;background:url(../images/dld-btn.png) repeat-x;color:#fff;padding:3px 13px;border-radius:4px;right:0;top:80px;}
 .appDownloadoff a.downloadAPP{float:right;background:url(../images/dld-btn.png) repeat-x;color:#fff;padding:3px 13px;border-radius:4px;}
 #reportLink:hover{text-decoration:none;background:#00471e}
 #reportLink{transition:background-color 0.2s ease-in-out 0s;font-size:1.2em;margin:0 0 1em;font-weight:bold;padding:.5em 1em;border-radius:1em;display:inline-block;}
 .appDownload h4{position:relative;right:0;top:70px;margin:0;font-size:1.2em;font-weight:normal;}
-.appDownloadoff h5{float:left;margin:0;font-size:1.5em;color:#fff;font-weight:normal;}
+.appDownloadoff h5{display:inline;margin:0;font-size:1.5em;color:#fff;font-weight:normal;}
 .searchp{background:#34a162;border-bottom:18px solid #177b41;min-height:40px;}
 .stabsContainer{background:#34a162;min-height:20px;}
 #searchBarForm{padding:1.4em;text-align:center;}
@@ -86,7 +86,7 @@ span.assurance-meta span{display:inline-table;float:right;width:30%;text-align:r
 #featContainer{overflow:hidden;}
 #featContainer a{color:#ff7e00;}
 .pageContent{background:#fff;padding:20px 10px 40px;min-height:800px;}
-#sideCol{float:left;width:22%;margin-right:2em;}
+#sideCol{float:left;width:22%;margin-right:1.3em;}
 #sideCol h3{background:#ff;padding:.8em;margin:0;}
 #sideCol form{background:#dbf1d7;padding:.8em .8em 1.3em;border-top:4px solid #ccc;color:#177b41;}
 #sideCol form label{display:block;color:#065025;font-weight:bold;font-size:1.2em;margin:0 0 6px;}
@@ -101,7 +101,7 @@ span.assurance-meta span{display:inline-table;float:right;width:30%;text-align:r
 ul.results{list-style:none;padding:0;margin:0 0 1em;}
 .results li{min-height:100px;border-bottom:1px solid #ddd;overflow:hidden;padding:0 0 1em;margin:0 0 1em;}
 .form-group{margin:0 0 15px;}
-.mainCol{float:left;width:75%;}
+.mainCol{float:left;width:76%;}
 #selectedFacets{font-size:1.05em;background:#dbf1d7;padding:.8em 0 1.3em;border-top:4px solid #ccc;color:#177b41;margin:0;}
 #selectedFacets ul{list-style:none;padding:0;margin:0;}
 #selectedFacets li{}
@@ -137,7 +137,7 @@ ul.results{list-style:none;padding:0;margin:0 0 1em;}
 .userFeeds .imgCon img{width:3em;}
 .u_postin{float:left;width:90%;min-height:3em;padding:0 1em;}
 .userview-links{float:left;background:#eee;padding:.4em .95em;}
-.view-comment-form textarea{width:100%;padding:.95em;resize:none;height:1.1em;border:1px solid #ddd;}
+.view-comment-form textarea{width:95%;padding:.95em;resize:none;height:1.1em;border:1px solid #ddd;}
 .uflist{float:left;padding:0;list-style:none;margin-bottom:0;}
 .userName{display:block;}
 .u_postin .userName{font-weight:bold;margin-bottom:.5em;font-size:1.2em;float:none;}
@@ -150,17 +150,17 @@ ul.results{list-style:none;padding:0;margin:0 0 1em;}
 .commentB{float:left;width:93%;}
 .commentB a{font-weight:bold;}
 .u_postin img{width:60%;margin:0 0 1em;float:left;clear:left;}
-.profile-stat{float:left;width:30%;}
+.profile-stat{float:left;}
 .Averview{float:left;text-align:center;}
 .Averview small{display:block;}
 .Averview span{font-size:1.5em;font-weight:bold;color:#009deb;}
 /****Person-profile****/
 .officials-profile ul{list-style:none;padding:0;margin:0;}
 header.profile-stats{min-height:100px;margin:0 0 1em}
-.officialsArea{display:block;position:relative;height:14.9em;}
+.officialsArea{display:block;position:relative;height:auto;}
 .officialsDetails{position:relative;min-height:3em;border:1px solid #ccc;border-top:none !important;}
 .profileInfo{border:1px solid #ccc;float:left;width:40%;margin:0 1em 1em 0;}
-.profileReport{padding:10px;background:#f1f1f1;float:left;width:55.53%;margin:0 0 .5em;}
+.profileReport{padding:10px;background:#f1f1f1;float:left;width:55.5%;margin:0 0 .5em;}
 ul.officials-news{margin:0 0 1em;clear:left;border:1px solid #ccc;overflow:hidden;}
 a.profile-picture{position:absolute;top:-7em;left:1.5em;margin-top:0;}
 a.profile-picture img{width:70%;display:block;border:4px solid #fff;border-radius:5em;}
@@ -236,8 +236,8 @@ ul.assurance-list i{display:block;float:left;width:20px;height:20px;background:u
 .view-links{display:block;}
 .view-comment-form{float:left;clear:left;}
 .sideCol3 .u_postin{float:none !important;width:auto !important;padding:0 !important;}
-.extra{width:29.6%;}
-.rpView{width:69%;}
+.extra{width:28.6% !important;}
+.rpView{width:70%;}
 .rp{overflow:hidden;}
 .rp li{margin:0 0 1em;float:left;border-bottom:1px solid #eee;padding:0 0 1em;}
 a.rpDATA{float:left;}
@@ -295,7 +295,9 @@ a.all-Link{position:absolute;bottom:0;left:0;color:#000;font-size:1.3em;}
 #global{margin-top:40px !important;}
 #searchBarForm input.searchpanel-input{width:34%;}
 .featBIG{width:45.5%;}
-#lista1 li.als-item{width:34.1em !important;}
+ul.officials-news li{width:93.5%;}
+.sideCol3{width:19.5%;}
+.profileReport{width:54.5%;}
 #lista1 li.als-item img{}
 }
 @media (min-width: 1200px) {
