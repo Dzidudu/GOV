@@ -151,7 +151,7 @@ ul.results{list-style:none;padding:0;margin:0 0 1em;}
 .commentB a{font-weight:bold;}
 .u_postin img{width:60%;margin:0 0 1em;float:left;clear:left;}
 .profile-stat{float:left;}
-.Averview{float:left;text-align:center;}
+.Averview{/*float:left;*/text-align:center;}
 .Averview small{display:block;}
 .Averview span{font-size:1.5em;font-weight:bold;color:#009deb;}
 /****Person-profile****/
@@ -336,43 +336,16 @@ button.mfp-close, button.mfp-arrow {
 #register-dialog, #signin-dialog{overflow:hidden;background:white;padding:20px;text-align:left;max-width:800px;margin:150px auto 0;position: relative;}
 #register-dialog h1, #signin-dialog h1{margin:0;border-bottom:1px solid #000;padding:0 0 .5em;font-weight:normal;text-align:center;}
 .mfp-hide{display:none !important;}
-.mfp-container:before {
-    content: "";
-    height: 100%;
-    vertical-align: middle;
-}
-.mfp-container {
-    -moz-box-sizing: border-box;
-    height: 100%;
-    left: 0;
-    padding: 0 8px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
-}
-.mfp-bg {
-    background: none repeat scroll 0 0 #0B0B0B;
-    height: 100%;
-    left: 0;
-    opacity: 0.8;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1042;
-}
-.mfp-wrap {
-    height: 100%;
-    left: 0;
-    outline: 0 none !important;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1043;
-}
-.social_log{width:40%;float:left;padding:6em 0 0;}
+.mfp-container:before{content:"";height:100%;vertical-align:middle;}
+.mfp-container{-moz-box-sizing:border-box;height:100%;left:0;padding: 0 8px;position:absolute;text-align:center;top:0;width:100%;}
+.mfp-bg{background:none repeat scroll 0 0 #0B0B0B;height:100%;left:0;opacity:0.8;overflow:hidden;position:fixed;top:0;width:100%;z-index:1042;}
+.mfp-wrap{height:100%;left:0;outline:0 none !important;position:fixed;top:0;width:100%;z-index:1043;}
+.social_log{width:40%;float:left;padding:4em 0 0;}
 .social_log .regwithsoc{margin:0 0 1em;}
+.regwithsoc a, .logwithsoc a{background:url(../images/social-media-login.png) no-repeat;width:212px;height:45px;display:block;margin:0 1em 1em 0;text-indent:-99999px;}
+.regwithsoc a.Rtw{background-position:0 -49px;}
+.logwithsoc a.Lfb{background-position:0 -102px;}
+.logwithsoc a.Ltw{background-position:0 -150px;}
 #register14{width:53.5%;float:left;background:#eee;padding:2em;}
 #register14 label{width:100px;float:left;cursor:default;margin:.4em 0 0;}
 #register14 input{width:24em;padding:.5em;border:1px solid #ccc;}
